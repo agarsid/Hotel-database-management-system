@@ -6,7 +6,7 @@
     of the individual and also keep a track of the charges depending upon the individual's type of room,
     meal plan and house keeping services.
 ## Assumptions:
-1. The system can be implemented for a maximum of 1000 rooms and the admin has to enter the number of rooms of the hotel. 
+1. With a maximum database of a 1000 rooms, the admin is required to enter the number of rooms requisite for the hotel.
 2. 1 room can be allotted to only 1 guest/family.
 3. The meal plan is on a per head basis i.e. there is a fixed charge for each meal. 
 

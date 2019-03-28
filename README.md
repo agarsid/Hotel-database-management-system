@@ -1,9 +1,10 @@
 # Hotel-database-management System
 ## Calculation of total charges of the customer residing in the hotel
-    In the hotel industry, there is a constant need for evaluation of the total charges that a customer needs to pay for his
-    stay and the use of hotel facilities during this period. Hence,we target to build a database management 
-    system which allows the staff to check room availability, authenticity of the individual and also keep a track of the 
-    charges depending upon the individual's type of room, meal plan and house keeping services.
+    In the hotel industry, there is a constant need for evaluation of the total charges that a customer
+    needs to pay for his stay and the use of hotel facilities during this period. Hence,we target to 
+    build a database management system which allows the staff to check room availability, authenticity
+    of the individual and also keep a track of the charges depending upon the individual's type of room,
+    meal plan and house keeping services.
 ## Assumptions:
 1. The system can be used for a maximum of 1000 rooms and the admin has to enter the number of rooms of the hotel. 
 2. 1 room can be allotted to only 1 guest/family.

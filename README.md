@@ -84,7 +84,7 @@ The database system is created for hotels in Hong Kong wherein all the prices ar
 ## SPECIAL FEATURE:
 Currently, **privacy** is a big concern of individuals wherein they are concerned how their ID can be misused when a 
 particular organisation/company/entity asks for their identity. However, it cannot be ignored that authentification of
-an individual is also neccessary for such companies, especially in the hotel industry who are responsible for the safety
+an individual is also neccessary for such companies, especially in the hotel industry which is responsible for the safety
 of all their guests. **Hence, our database management system does ask for the HKID of an individual so as to authenticate 
 his identity, but having checked it, it does not store any record of the person's ID. The only ID which is stored in the 
 system is of the most recent guest.** Moreover, to access the record of previous guests, a file "History.dat". Again, this 

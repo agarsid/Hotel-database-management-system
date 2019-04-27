@@ -76,10 +76,14 @@ The database system is created for hotels in Hong Kong wherein all the prices ar
 * The input requirement in main menu or other areas where a particular choice is required and the admin is asked for
   input should be an integer value only and there should be no spaces when such a choice is being made. If an invalid
   integer choice is made, the user is asked for input again. Furthermore, in cases where a name is asked, there is no
-  restriction.
+  restriction. However, the name cannot be longer than 30 characters and the address cannot be longer than 100 characters.
   
 * The ouput is displayed on the screen. Also the files created get updated whenever any detail in them is changed. For
   example, when a new guest checks in, his details are updated on "Record.dat".
+#### Input/Output Files:
+    Due to the project having various menu options, with each option succeeded by more inputs, sample input/output 
+    files have not been provided. Due to this reason, all the assumptions and input specifications have been clearly
+    mentioned in this README.md .
   
 ## SPECIAL FEATURE:
 Currently, **privacy** is a big concern of individuals wherein they are concerned how their ID can be misused when a 

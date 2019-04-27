@@ -89,3 +89,7 @@ of all their guests. **Hence, our database management system does ask for the HK
 his identity, but having checked it, it does not store any record of the person's ID. The only ID which is stored in the 
 system is of the most recent guest.** Moreover, to access the record of previous guests, a file "History.dat". Again, this 
 file has no record of HKID details of the guest so as to maintain his privacy whereas it has his name, address and a correct Hong Kong number for security concerns of the hotel.
+
+## Compilation and Execution Instructions
+The Admin needs to compile all the files using the command **make main**. The program will be executed using the command **./main.**
+Depending upon the admin's choices, the following files will be created: hoteldeets.dat, Record.dat, temp.dat, History.dat, file1.txt, file.txt. The *.txt* files created store the HKID **temporarily** of the most recent guest.

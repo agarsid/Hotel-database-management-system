@@ -5,8 +5,13 @@
     build a database management system which allows the staff to check room availability, authenticity
     of the individual and also keep a track of the charges depending upon the individual's type of room,
     meal plan and house keeping services.
-## Assumptions:
+## Problem Setting:
+
 **(This project works on a LINUX environment and is coded in c++11)**
+
+The database system is created for hotels in Hong Kong wherein all the prices are in HKD.
+
+### **Assumptions**:
 1. The database is built for a hotel with maximum 4 types of rooms: Standard, Deluxe, Supreme and Royal.
 2. The admin should be aware of the room numbers as the database only maintains records if a room number is entered.
 3. A date before 2019 and after 2025 cannot be input. The admin should however not enter a date prior to the current date.
@@ -16,6 +21,7 @@
 
     The program creates two main files. "hoteldeets.dat" stores the details of room type and price.
     "Records.dat stores information of each person staying in a room.
+    
 1. Edit Hotel Details:
    - Choosing this function allows the admin to add or increase number of rooms in the hotel and also change their
      prices. It is **important** to note that if "hoteldeets.dat" is empty, this function is implicitly called in
@@ -64,3 +70,22 @@
 7. Exit:
    - The main menu exits and the program terminates.
      *If the admin enters a number not in [1-7],the main menu again pops up.
+     
+## Input/Output SPECIFICATIONS:
+
+* The input requirement in main menu or other areas where a particular choice is required and the admin is asked for
+  input should be an integer value only and there should be no spaces when such a choice is being made. If an invalid
+  integer choice is made, the user is asked for input again. Furthermore, in cases where a name is asked, there is no
+  restriction.
+  
+* The ouput is displayed on the screen. Also the files created get updated whenever any detail in them is changed. For
+  example, when a new guest checks in, his details are updated on "Record.dat".
+  
+## SPECIAL FEATURE:
+Currently, **privacy** is a big concern of individuals wherein they are concerned how their ID can be misused when a 
+particular organisation/company/entity asks for their identity. However, it cannot be ignored that authentification of
+an individual is also neccessary for such companies, especially in the hotel industry who are responsible for the safety
+of all their guests. **Hence, our database management system does ask for the HKID of an individual so as to authenticate 
+his identity, but having checked it, it does not store any record of the person's ID. The only ID which is stored in the 
+system is of the most recent guest.** Moreover, to access the record of previous guests, a file "History.dat". Again, this 
+file has no record of HKID details of the guest so as to maintain his privacy whereas it has his name, address and a correct Hong Kong number for security concerns of the hotel.
